@@ -1,6 +1,6 @@
 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g clip-path="url(#clip0_158_2)">
-<circle cx="16" cy="16" r="16" fill="url(#paint0_linear_158_2)"/>
+<circle cx="16" cy="16" r="16" fill="#FBFBFB"/>
 <rect width="16.8249" height="16.8249" transform="matrix(0.716453 0.697635 0.697635 -0.716453 4 12.0542)" fill="url(#pattern0_158_2)"/>
 <rect width="16.8249" height="16.8249" transform="matrix(-0.894804 -0.44646 -0.44646 0.894804 27.9173 17.2748)" fill="url(#pattern1_158_2)"/>
 </g>
@@ -11,10 +11,6 @@
 <pattern id="pattern1_158_2" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0_158_2" transform="scale(0.00195312)"/>
 </pattern>
-<linearGradient id="paint0_linear_158_2" x1="16" y1="0" x2="16" y2="32" gradientUnits="userSpaceOnUse">
-<stop offset="0.02" stop-color="#7B2AFF"/>
-<stop offset="1" stop-color="#2794E3"/>
-</linearGradient>
 <clipPath id="clip0_158_2">
 <rect width="32" height="32" fill="white"/>
 </clipPath>
