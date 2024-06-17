@@ -11,6 +11,10 @@ p {
   margin: 0px;
 }
 
+body h1 {
+  font-family: "genos";
+}
+
 ul {
   margin: 0px;
   padding: 0px;
@@ -29,13 +33,13 @@ img {
   line-height: 1;
   text-transform: uppercase;
   max-width: 4ch;
+  font-family: "genos";
 }
 
 @media (max-width: 1342px) {
-
-.subtitulo {
-  font-size: 3rem;
-  text-transform: capitalize;
-  max-width: initial !important;
-}
+  .subtitulo {
+    font-size: 3rem;
+    text-transform: capitalize;
+    max-width: initial !important;
+  }
 }

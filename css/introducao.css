@@ -23,8 +23,8 @@
   height: 100px;
   background: url("../img/detalhe-rodape.svg") no-repeat center;
   position: absolute;
-  top: -25px;
-  left: -50px;
+  top: -20px;
+  left: -56px;
   z-index: -1;
 }
 
@@ -33,7 +33,7 @@
   color: #52525252;
 }
 
-@media (max-width: 1342px) {
+@media (max-width: 1000px) {
   .introducao h1 {
     font-size: 3rem;
   }
@@ -41,41 +41,31 @@
   .introducao h1::before {
     width: 18px;
     height: 12px;
-    top: 32px;
+    top: 28px;
     left: -28px;
     border-radius: 2px;
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 800px) {
   .introducao {
     grid-template-columns: 1fr 1fr;
     gap: 40px;
+  }
+  .introducao h1 {
     font-size: 2rem;
   }
 
   .introducao h1::before {
-    width: 10px;
+    width: 20px;
     height: 10px;
-    left: -18px;
+    top: -2px;
+    left: 0px;
   }
 }
 
-@media (max-width: 800px) {
-  .introducao {
-    grid-template-columns: 1fr;
-  }
-  .introducao img {
+@media (max-width: 660px) {
+  img {
     display: none;
   }
-  .introducao h1,
-  p {
-    text-align: center;
-  }
-
-  .introducao h1::before {
-    display: none;
-  }
-
-  
 }
